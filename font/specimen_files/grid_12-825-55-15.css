@@ -1,10 +1,12 @@
 /*Notes about grid:
 Columns:      12
 Grid Width:   825px
-Column Width: 55px
+Column Width: 55pxa {}
 Gutter Width: 15px
 -------------------------------*/
-
+/* stylelint-disable */
+a {}
+/* stylelint-enable */
 
 .section {
 	margin-bottom: 18px;

@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+body{
+  background-color: #172b4d;
+}
 .container {
   margin: 0 auto;
   width: 315px;
@@ -31,7 +32,7 @@
 
 .logo {
   align-self: flex-start;
-  font-family: 'poppinsbold';
+  font-family: "poppinsbold";
   height: 25px;
   font-weight: 700;
   font-size: 18px;
