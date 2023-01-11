@@ -16,12 +16,10 @@ body{
 }
 
 .status {
-
   align-self: flex-start;
 }
 
 .elements {
-
   margin-top: -20px;
   display: flex;
   justify-content: space-between;
@@ -29,13 +27,11 @@ body{
 }
 
 .item {
-
   order: 1;
   margin-top: 65px;
 }
 
 .logo {
-
   align-self: flex-start;
   font-family: "poppinsbold", Arial, Helvetica, sans-serif;
   height: 25px;
@@ -46,19 +42,16 @@ body{
 }
 
 .harmburger img {
-
   width: 24px;
 }
 
 .harmburger img:hover {
-
   background-color: green;
   width: 24px;
   color: green;
 }
 
 .greeting {
-
   width: 317px;
   height: 120px;
   font-family: 'poppinsbold', Arial, Helvetica, sans-serif;
@@ -69,7 +62,6 @@ body{
 }
 
 .content {
-
   width: 327px;
   height: 126px;
   font-family: 'poppinsregular', Arial, Helvetica, sans-serif;
@@ -85,7 +77,6 @@ body{
 }
 
 .connect {
-
   width: 157px;
   height: 24px;
   font-family: 'poppinsregular', Arial, Helvetica, sans-serif;
@@ -100,12 +91,10 @@ body{
 }
 
 .social {
-
   display: flex;
 }
 
 .social img {
-
   height: 20px;
   margin-right: 20px;
 }
