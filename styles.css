@@ -33,7 +33,7 @@ body {
 
 .logo {
   align-self: flex-start;
-  font-family: "poppinsbold", Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   height: 25px;
   font-weight: 700;
   font-size: 18px;
@@ -63,7 +63,7 @@ body {
 .greeting {
   width: 317px;
   height: 120px;
-  font-family: 'poppinsbold', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
@@ -73,7 +73,7 @@ body {
 .content {
   width: 327px;
   height: 126px;
-  font-family: 'poppinsregular', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -87,7 +87,7 @@ body {
 .connect {
   width: 157px;
   height: 24px;
-  font-family: 'poppinsregular', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
