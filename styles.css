@@ -43,6 +43,10 @@ body {
   text-decoration: none;
 }
 
+ul{
+  margin-left: -35px;
+}
+
 .social {
   display: flex;
   list-style: none;
