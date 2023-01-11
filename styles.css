@@ -4,6 +4,7 @@
     margin: 0 auto;
     width: 375px;
     height: 718px;
+    background-color: #ffffff;
     background-image: url(./Graphics/header-shapes\ mobile.png);
     background-size: contain;
     padding: 30px;
@@ -53,11 +54,13 @@
     width: 327px;
     height: 150px;
     font-family: 'Poppins';
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 900;
     font-size: 40px;
     line-height: 52px;
     color: #172B4D;
     order: 0;
+
 }
 
 .content {
