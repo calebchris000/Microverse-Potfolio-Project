@@ -31,7 +31,7 @@
 
 .logo {
   align-self: flex-start;
-  font-family: 'Poppins';
+  font-family: 'poppinsbold';
   height: 25px;
   font-weight: 700;
   font-size: 18px;
@@ -52,19 +52,17 @@
 .greeting {
   width: 317px;
   height: 120px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 900;
+  font-family: 'poppinsbold';
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   order: 0;
 }
 
 .content {
   width: 327px;
   height: 126px;
-  font-family: 'Poppins';
+  font-family: 'poppinsregular';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -79,12 +77,12 @@
 .connect {
   width: 157px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'poppinsregular';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8Cff;
+  color: #7f8Cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -94,7 +92,7 @@
   display: flex;
 }
 
-.social::before {
+.social img {
   height: 20px;
   margin-right: 20px;
 }
