@@ -2,11 +2,12 @@
     margin: 0 auto;
     width: 375px;
     height: 718px;
-   
     background-image: url(/Graphics/header-shapes\ mobile.png);
     background-size: contain;
     border: 5px solid #7F8CFF;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -36,31 +37,25 @@
 }
 
 
-.harmburger img{   
+.harmburger img {
     width: 24px;
     margin-right: 40px;
 }
 
 .greeting {
-width: 327px;
-height: 150px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #172B4D;
-flex: none;
-order: 0;
-flex-grow: 0;
+    width: 327px;
+    height: 150px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172B4D;
+    order: 0;
 }
 
 .content {
     width: 327px;
     height: 146px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -70,6 +65,7 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
+    order: 0;
 }
 
 .connect {
@@ -94,4 +90,3 @@ flex-grow: 0;
     height: 20px;
     margin-right: 20px;
 }
-
