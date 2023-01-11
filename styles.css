@@ -2,6 +2,7 @@ body{
   background-color: #172b4d;
 }
 .container {
+
   margin: 0 auto;
   width: 315px;
   height: 710px;
@@ -15,10 +16,12 @@ body{
 }
 
 .status {
+
   align-self: flex-start;
 }
 
 .elements {
+
   margin-top: -20px;
   display: flex;
   justify-content: space-between;
@@ -26,13 +29,15 @@ body{
 }
 
 .item {
+
   order: 1;
   margin-top: 65px;
 }
 
 .logo {
+
   align-self: flex-start;
-  font-family: "poppinsbold";
+  font-family: "poppinsbold", Arial, Helvetica, sans-serif;
   height: 25px;
   font-weight: 700;
   font-size: 18px;
@@ -41,19 +46,22 @@ body{
 }
 
 .harmburger img {
+
   width: 24px;
 }
 
 .harmburger img:hover {
+
   background-color: green;
   width: 24px;
   color: green;
 }
 
 .greeting {
+
   width: 317px;
   height: 120px;
-  font-family: 'poppinsbold';
+  font-family: 'poppinsbold', Arial, Helvetica, sans-serif;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
@@ -61,9 +69,10 @@ body{
 }
 
 .content {
+
   width: 327px;
   height: 126px;
-  font-family: 'poppinsregular';
+  font-family: 'poppinsregular', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -76,9 +85,10 @@ body{
 }
 
 .connect {
+
   width: 157px;
   height: 24px;
-  font-family: 'poppinsregular';
+  font-family: 'poppinsregular', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -90,10 +100,12 @@ body{
 }
 
 .social {
+
   display: flex;
 }
 
 .social img {
+
   height: 20px;
   margin-right: 20px;
 }
