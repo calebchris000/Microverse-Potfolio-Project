@@ -4,7 +4,7 @@
     margin: 0 auto;
     width: 375px;
     height: 718px;
-    background-image: url(/Graphics/header-shapes\ mobile.png);
+    background-image: url(./Graphics/header-shapes\ mobile.png);
     background-size: contain;
     padding: 30px;
     display: flex;
@@ -41,6 +41,12 @@
 .harmburger img {
     width: 24px;
     margin-right: 40px;
+}
+
+.harmburger img:hover{
+    background-color: green;
+    width: 24px;
+    color: green;
 }
 
 .greeting {
