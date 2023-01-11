@@ -51,11 +51,10 @@ body {
 .social img {
   height: 20px;
   margin-right: 20px;
-  
 }
 
 .icon {
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .icon:hover {
