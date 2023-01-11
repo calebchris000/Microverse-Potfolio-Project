@@ -41,6 +41,15 @@ body {
   color: #6070ff;
 }
 
+.social {
+  display: flex;
+}
+
+.social img {
+  height: 20px;
+  margin-right: 20px;
+}
+
 .harmburger img {
   width: 24px;
 }
@@ -71,7 +80,6 @@ body {
   line-height: 24px;
   color: #344563;
   flex: none;
-  order: 1;
   flex-grow: 0;
   order: 0;
 }
@@ -89,11 +97,4 @@ body {
   flex-grow: 0;
 }
 
-.social {
-  display: flex;
-}
 
-.social img {
-  height: 20px;
-  margin-right: 20px;
-}
