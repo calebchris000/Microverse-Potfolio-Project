@@ -43,11 +43,9 @@ body {
   text-decoration: none;
 }
 
-
 .social {
   display: flex;
   list-style: none;
-
 }
 
 .social img {
@@ -56,15 +54,16 @@ body {
   
 }
 
-.icon{
+.icon {
   transition: all .2s ease;
 }
-.icon:hover{
+
+.icon:hover {
   margin-top: -5px;
   width: fit-content;
 }
 
-.icon:enabled{
+.icon:enabled {
   transform: rotate(320deg);
 }
 
