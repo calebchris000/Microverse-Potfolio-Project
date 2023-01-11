@@ -4,14 +4,13 @@
   margin: 0 auto;
   width: 315px;
   height: 710px;
-  background-color: "  " #ffffff;
+  background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png);
   background-size: contain;
   background-position: center;
   padding: 30px;
   display: flex;
   flex-direction: column;
-
 }
 
 .status {
@@ -23,8 +22,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
-
 }
 
 .item {
@@ -34,15 +31,13 @@
 
 .logo {
   align-self: flex-start;
-  font-family: Poppins;
+  font-family: 'Poppins';
   height: 25px;
-  font-family: Poppins;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
 }
-
 
 .harmburger img {
   width: 24px;
@@ -64,8 +59,6 @@
   line-height: 52px;
   color: #172B4D;
   order: 0;
-
-
 }
 
 .content {
@@ -91,7 +84,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7F8Cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -101,7 +94,7 @@
   display: flex;
 }
 
-.social img {
+.social::before {
   height: 20px;
   margin-right: 20px;
 }
