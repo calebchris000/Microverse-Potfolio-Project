@@ -1,11 +1,12 @@
 .container {
-    border: 5px solid #344563;
-    width: 300px;
-    height: 100vh;
     margin: 0 auto;
-    padding: 20px;
+    width: 375px;
+    height: 718px;
+   
     background-image: url(/Graphics/header-shapes\ mobile.png);
     background-size: contain;
+    border: 5px solid #7F8CFF;
+    padding: 30px;
 
 }
 
@@ -43,28 +44,48 @@
 }
 
 .greeting {
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 62px;
-    color: #172B4D;
+width: 327px;
+height: 150px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .content {
-    font-family: Poppins;
+    width: 327px;
+    height: 146px;
+
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .connect {
-    font-family: Poppins;
+    width: 157px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 500;
-    ;
     font-size: 16px;
     line-height: 24px;
     color: #7F8CFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .social {
