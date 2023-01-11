@@ -9,6 +9,7 @@ body {
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png); /* fixed the path */
   background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   padding: 30px;
   display: flex;
@@ -33,47 +34,59 @@ body {
 
 .logo {
   align-self: flex-start;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: "poppins", sans-serif;
   height: 25px;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
   color: #6070ff;
+  text-decoration: none;
 }
+
 
 .social {
   display: flex;
+  list-style: none;
+
 }
 
 .social img {
   height: 20px;
   margin-right: 20px;
+  
+}
+
+.icon{
+  transition: all .2s ease;
+}
+.icon:hover{
+  margin-top: -5px;
+  width: fit-content;
+}
+
+.icon:enabled{
+  transform: rotate(320deg);
 }
 
 .harmburger img {
   width: 24px;
 }
 
-.harmburger img:hover {
-  background-color: green;
-  width: 24px;
-  color: green;
-}
-
 .greeting {
   width: 317px;
   height: 120px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   order: 0;
+  margin-bottom: 45px;
 }
 
 .content {
   width: 327px;
   height: 126px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -82,12 +95,13 @@ body {
   flex: none;
   flex-grow: 0;
   order: 0;
+  margin-bottom: 30px;
 }
 
 .connect {
   width: 157px;
   height: 24px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
