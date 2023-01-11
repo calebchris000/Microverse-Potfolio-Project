@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .container {
     margin: 0 auto;
     width: 375px;
     height: 718px;
     background-image: url(/Graphics/header-shapes\ mobile.png);
     background-size: contain;
-    border: 5px solid #7F8CFF;
     padding: 30px;
     display: flex;
     flex-direction: column;
