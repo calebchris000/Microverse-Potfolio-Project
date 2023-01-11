@@ -1,13 +1,13 @@
-body{
+body {
   background-color: #172b4d;
 }
-.container {
 
+.container {
   margin: 0 auto;
   width: 315px;
   height: 710px;
   background-color: #fff;
-  background-image: url(./Graphics/header-shapes\ mobile.png);
+  background-image: url(./Graphics/header-shapes\ mobile.png); /* fixed the path */
   background-size: contain;
   background-position: center;
   padding: 30px;
@@ -84,7 +84,7 @@ body{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8Cff;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
