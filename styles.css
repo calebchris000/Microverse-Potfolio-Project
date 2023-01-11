@@ -1,0 +1,77 @@
+.container {
+    border: 5px solid #344563;
+    width: 300px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(/Graphics/header-shapes\ mobile.png);
+    background-size: contain;
+
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.item {
+    order: 1;
+    margin-top: 45px;
+}
+
+.logo {
+    align-self: flex-start;
+    font-family: Poppins;
+    height: 25px;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #6070FF;
+}
+
+.harmburger {
+    align-self: flex-start;
+    border: 5px solid #344563;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+
+}
+
+.greeting {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 62px;
+    color: #172B4D;
+}
+
+.content {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+}
+
+.connect {
+    font-family: Poppins;
+    font-weight: 500;
+    ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+}
+
+.social {
+    display: flex;
+}
+
+.social img {
+    height: 20px;
+    margin-right: 20px;
+}
