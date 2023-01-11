@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: flex-start;
 
+
 }
 
 .item {
@@ -34,13 +35,10 @@
     color: #6070FF;
 }
 
-.harmburger {
-    align-self: flex-start;
-    border: 5px solid #344563;
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
 
+.harmburger img{   
+    width: 24px;
+    margin-right: 40px;
 }
 
 .greeting {
@@ -96,3 +94,4 @@ flex-grow: 0;
     height: 20px;
     margin-right: 20px;
 }
+
