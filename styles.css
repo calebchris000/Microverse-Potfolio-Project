@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 710px;
+  height: 1310px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png); /* fixed the path */
   background-size: contain;
@@ -45,6 +45,10 @@ body {
 
 ul {
   margin-left: -35px;
+}
+
+li {
+  list-style-type: none;
 }
 
 .social {
@@ -111,4 +115,72 @@ ul {
   color: #7f8cff;
   order: 0;
   flex-grow: 0;
+}
+
+.work {
+  position: relative;
+  top:90px;
+}
+
+.portfolio {
+  width:100%;
+}
+
+.projectTitle {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 0px;
+  color: #172b4d;
+}
+
+.subtitle {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -35px;
+  height: 10px;
+}
+
+.subtitle li {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: -20px;
+
+}
+
+.canopy {
+  color: #344563;
+  margin-right: 10px;
+}
+
+.backend, .year {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #7a869a;
+}
+
+.work .description{
+  width: 295px;
+  margin-top: -80px;
+  font-weight: 400;
+  color: #344563;
+  font-size: 15px;
+  font-family:"poppins", sans-serif;
+}
+
+.work .madewith{
+  display: flex;
+}
+
+.html, .css, .js{
+  margin-right: 10px;
+  padding: 4px 12px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  border: 2px solid #ebebff;
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070FF;
 }
