@@ -119,16 +119,17 @@ li {
 
 .work {
   position: relative;
-  top:80px;
+  top: 80px;
 }
 
 .portfolio {
-  width:100%;
+  width: 100%;
   border-radius: 16px;
 }
 
-.work .two, .work .four {
-  border: 2px solid #DFE1E6;
+.work .two,
+.work .four {
+  border: 2px solid #dfe1e6;
 }
 
 .projectTitle {
@@ -159,7 +160,8 @@ li {
   margin-right: 10px;
 }
 
-.backend, .year {
+.backend,
+.year {
   margin-left: 10px;
   margin-right: 10px;
   color: #7a869a;
@@ -178,7 +180,9 @@ li {
   display: flex;
 }
 
-.html, .css, .js {
+.html,
+.css,
+.js {
   margin-right: 10px;
   padding: 4px 12px;
   font-family: "poppins", sans-serif;
@@ -232,7 +236,9 @@ li {
   border-radius: 8px;
 }
 
-.language-header, .frameworks-header, .skills-header {
+.language-header,
+.frameworks-header,
+.skills-header {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -256,7 +262,9 @@ li {
   font-family: "poppins", sans-serif;
 }
 
-.languages .js-container, .html-container, .css-container {
+.languages .js-container,
+.html-container,
+.css-container {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -269,14 +277,17 @@ li {
   padding-left: 5px;
 }
 
-.javascript, .html5, .css3 {
+.javascript,
+.html5,
+.css3 {
   position: relative;
-  top:3px;
-  left:10px;
+  top: 3px;
+  left: 10px;
   color: #253858;
 }
 
-.frameworks-header li, .skills-header li {
+.frameworks-header li,
+.skills-header li {
   font-family: "poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
