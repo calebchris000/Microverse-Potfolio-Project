@@ -136,7 +136,6 @@ li {
   font-family: "poppins", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  margin-top: 0px;
   color: #172b4d;
 }
 
@@ -152,7 +151,6 @@ li {
   font-weight: 600;
   font-size: 13px;
   margin-top: -20px;
-
 }
 
 .canopy {
@@ -173,7 +171,7 @@ li {
   font-weight: 400;
   color: #344563;
   font-size: 15px;
-  font-family:"poppins", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .work .madewith {
@@ -200,7 +198,7 @@ li {
   border: 2px solid #396df2;
   color: #396df2;
   background-color: #fff;
-  width:fit-content;
+  width: fit-content;
   border-radius: 16px;
   padding: 12px 16px;
 }
