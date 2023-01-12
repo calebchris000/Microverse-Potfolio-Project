@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 1310px;
+  height: 2310px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png); /* fixed the path */
   background-size: contain;
@@ -160,7 +160,7 @@ li {
   color: #7a869a;
 }
 
-.work .description{
+.work .description {
   width: 295px;
   margin-top: -80px;
   font-weight: 400;
@@ -173,7 +173,7 @@ li {
   display: flex;
 }
 
-.html, .css, .js{
+.html, .css, .js {
   margin-right: 10px;
   padding: 4px 12px;
   font-family: "poppins", sans-serif;
@@ -183,4 +183,23 @@ li {
   border-radius: 8px;
   background-color: #ebebff;
   color: #6070FF;
+}
+
+.seeproject {
+  font-family: "poppins", sans-serif;
+  margin-top: 30px;
+  border: 2px solid #396DF2;
+  color: #396df2;
+  background-color: #fff;
+  width:fit-content;
+  border-radius: 16px;
+  padding: 12px 16px;
+}
+
+.space {
+  margin: 150px;
+}
+
+.multi {
+  width: 285px;
 }
