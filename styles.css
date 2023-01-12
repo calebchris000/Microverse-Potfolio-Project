@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 4110px;
+  height: 4210px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png); /* fixed the path */
   background-size: contain;
@@ -124,6 +124,11 @@ li {
 
 .portfolio {
   width:100%;
+  border-radius: 16px;
+}
+
+.work .two, .work .four {
+  border: 2px solid #DFE1E6;
 }
 
 .projectTitle {
@@ -169,7 +174,7 @@ li {
   font-family:"poppins", sans-serif;
 }
 
-.work .madewith{
+.work .madewith {
   display: flex;
 }
 
@@ -218,7 +223,7 @@ li {
   line-height: 50px;
 }
 
-.work .get-resume{
+.work .get-resume {
   font-family: "poppins", sans-serif;
   border: 2px solid #396df2;
   width: fit-content;
@@ -227,27 +232,27 @@ li {
   border-radius: 8px;
 }
 
-.language-header {
+.language-header, .frameworks-header, .skills-header {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.language-header li{
+.language-header li {
   font-family: "poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
 
-.toggle{
+.toggle {
   width: 16px;
   height: 8px;
   position: relative;
   right: 35px;
 }
 
-.languages{
+.languages {
   font-family: "poppins", sans-serif;
 }
 
@@ -255,11 +260,33 @@ li {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  border: 2px solid #f7f7f9;
+  border-radius: 8px;
+  width: 100%;
+  background-color: #f7f7f9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
 }
 
-.javascript, .html5, .css3{
+.javascript, .html5, .css3 {
   position: relative;
   top:3px;
   left:10px;
   color: #253858;
+}
+
+.frameworks-header li, .skills-header li {
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.toggle-right {
+  position: relative;
+  right: 35px;
+}
+
+.line {
+  border: 1px solid #dfe1e6;
 }
