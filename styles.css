@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 4210px;
+  height: 4810px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png); /* fixed the path */
   background-size: contain;
@@ -298,4 +298,14 @@ li {
 
 .line {
   border: 1px solid #dfe1e6;
+}
+
+.contact-container {
+  margin-top: 150px;
+  border: 2px solid #6070ff;
+  border-top-left-radius: 100px;
+  background-color: #6070ff;
+  height: 100vw;
+  position: relative;
+  margin-left: 0px 0px;
 }
