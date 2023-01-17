@@ -10,7 +10,6 @@ body {
   background-image: url(./Graphics/header-shapes\ mobile.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
   display: flex;
   flex-direction: column;
   padding: 20px;
