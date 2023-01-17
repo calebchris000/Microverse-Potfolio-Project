@@ -62,7 +62,43 @@
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
 
+In order to run this project you need:
+- A laptop.
+- An internet connection.
+- A code editor (i.e Visual Studio, Atom e.t.c).
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```git clone https://github.com/calebchris000/Microverse-Potfolio-Project.git ```
+
+
+### Install
+
+Install this project with:
+
+```sudo apt install code ```
+
+### Usage
+
+To run the project, execute the following command:
+
+**Open a browser and run the index.html file.**
+
+### Run tests
+
+You don't need to run any command.
+
+### Deployment
+
+You can deploy this project using:
+
+**Nothing. You can run it on a browser.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors
 
