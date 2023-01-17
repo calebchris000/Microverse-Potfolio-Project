@@ -370,5 +370,21 @@ li {
   height: 48px;
   border-radius: 8px;
   background: #FFFFFF;
+  color: #6070FF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
   margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  border: 2px solid grey;
+  padding: 12px 16px;
+}
+
+button:hover {
+  color: blue;
+  background-color: black;
 }
