@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 5010px;
+  height:fit-content;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png);
   background-size: contain;
@@ -323,6 +323,10 @@ li {
   box-sizing: border-box;
   margin: -20px;
   margin-top: 150px;
+  background-image: url(./Graphics/contact\ form\ shapes-mobile@2x.png);
+  background-size: 200px;
+  background-position: 160px;
+  background-repeat: no-repeat;
 }
 
 .contact-container input {
