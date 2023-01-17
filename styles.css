@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 5210px;
+  height: 5010px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png);
   background-size: contain;
@@ -126,7 +126,7 @@ li {
   color: #7f8cff;
   order: 0;
   flex-grow: 0;
-  margin-bottom: -5px;
+  margin-bottom: 10px;
 }
 
 .work {
@@ -380,11 +380,21 @@ li {
   align-items: center;
   justify-content: center;
   margin-left: 60px;
-  border: 2px solid grey;
+  border: 1px solid #8b97ff;
   padding: 12px 16px;
 }
 
 button:hover {
-  color: #00f;
-  background-color: #000;
+  color: #fff;
+  background-color: #6070ff;
+}
+
+button:active {
+  border-color: #2230d2;
+  background-color: #2230d2;
+}
+
+button:disabled {
+  background-color: #fff;
+  color: #000;
 }
