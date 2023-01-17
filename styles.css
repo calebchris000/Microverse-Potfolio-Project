@@ -8,7 +8,6 @@ body {
   height: 5210px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png);
-  /* fixed the path */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,12 +16,11 @@ body {
   padding: 20px;
 }
 
-
 .banner {
   display: flex;
   flex-direction: column;
   position: relative;
-  top:100px;
+  top: 100px;
 }
 
 .banner h1,
@@ -333,10 +331,7 @@ li {
   border-radius: 8px;
   height: 48px;
   width: 273px;
-  left: 0px;
   margin-top: 15px;
-  border-radius: 8px;
-
 }
 
 .contact-container h1 {
@@ -390,6 +385,7 @@ li {
 }
 
 button:hover {
-  color: #0000FF;
+  color: #0000ff;
   background-color: #000;
 }
+
