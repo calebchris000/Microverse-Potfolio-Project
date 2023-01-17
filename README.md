@@ -107,9 +107,8 @@ On Linux:
 
 You can deploy this project using:
 
-**Nothing. You can run it on a browser.**
+**The project doesn't have a deployment code.**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors
 
