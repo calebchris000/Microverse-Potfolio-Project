@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height: 4810px;
+  height: 5210px;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png);
   /* fixed the path */
@@ -14,13 +14,15 @@ body {
   background-position: center;
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
+
 
 .banner {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 30px;
+  position: relative;
+  top:100px;
 }
 
 .banner h1,
@@ -37,6 +39,8 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .item {
@@ -66,6 +70,7 @@ li {
 .social {
   display: flex;
   list-style: none;
+  margin-bottom: 40px;
 }
 
 .social img {
@@ -91,8 +96,6 @@ li {
 }
 
 .greeting {
-  /* width: 317px;
-  height: 120px; */
   font-family: 'poppins', sans-serif;
   font-size: 40px;
   line-height: 52px;
@@ -102,8 +105,6 @@ li {
 }
 
 .content {
-  /* width: 327px;
-  height: 126px; */
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -127,6 +128,7 @@ li {
   color: #7f8cff;
   order: 0;
   flex-grow: 0;
+  margin-bottom: -5px;
 }
 
 .work {
@@ -316,16 +318,18 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
   border: 2px solid #6070ff;
   border-top-left-radius: 100px;
   background-color: #6070ff;
   height: auto;
+  box-sizing: border-box;
+  margin: -20px;
+  margin-top: 150px;
 }
 
 .contact-container input {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 48px;
   width: 273px;
@@ -336,29 +340,30 @@ li {
 }
 
 .contact-container h1 {
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .contact-container p {
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
+  margin-top: -20px;
 }
 
 .contact-container textarea {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 273px;
   height: 170px;
@@ -369,9 +374,9 @@ li {
   width: 140px;
   height: 48px;
   border-radius: 8px;
-  background: #FFFFFF;
-  color: #6070FF;
-  font-family: 'Poppins';
+  background: #fff;
+  color: #6070ff;
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -385,6 +390,6 @@ li {
 }
 
 button:hover {
-  color: blue;
-  background-color: black;
+  color: #0000FF;
+  background-color: #000;
 }
