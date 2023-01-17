@@ -5,7 +5,7 @@ body {
 .container {
   margin: 0 auto;
   width: 315px;
-  height:fit-content;
+  height: fit-content;
   background-color: #fff;
   background-image: url(./Graphics/header-shapes\ mobile.png);
   background-size: contain;
