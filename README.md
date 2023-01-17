@@ -80,7 +80,9 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-```sudo apt install code ```
+To navigate through the cloned repos:
+``cd <directory_name>``
+Open with and IDE: e.g VSCode: code.
 
 ### Usage
 
@@ -90,7 +92,16 @@ To run the project, execute the following command:
 
 ### Run tests
 
-You don't need to run any command.
+To run the tests, do the following:
+- **Install node**
+On Linux:
+ ``sudo apt install npm``
+ On Windows
+ [Go to NodeJS.org](https://nodejs.org/)
+ 
+- **Install stylelint**
+``npm install stylelint --save-dev``
+
 
 ### Deployment
 
