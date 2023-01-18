@@ -102,13 +102,13 @@
       </ul>
 
       <div class="space"></div>
-      <ul class="first-item">
+      <ul class="second-item">
 
         <li class="port-1"><img src="./Graphics/Snapshoot Portfolio 2.jpg" alt="image-1"></li>
 
         <li>
           <ul class="description">
-            <div class="tonic">Multi-Post Stories</div>
+            <div class="multi">Multi-Post Stories</div>
 
             <ul class="feature">
               <li class="canopy">CANOPY</li>
@@ -177,7 +177,7 @@
 
       <div class="space"></div>
 
-      <ul class="first-item">
+      <ul class="fourth-item">
 
         <li class="port-1"><img src="./Graphics/Snapshoot Portfolio 4.jpg" alt="image-1"></li>
 
@@ -305,16 +305,33 @@
     </div>
     </section>
     <div class="space"></div>
+
     <section class="footer">
+      
       <div class="contact-container">
-        <h2>Contact me</h2>
+        <h2 class="con-me">Contact me</h2>
         <p>If you have an application you are interested in developing, a
           feature that you need built or a project
           that needs coding. I’d love to help with it</p>
 
-          <label for="contact">
-            <input type="text" name="user_name" id="contact">
-          </label>
+          <form action="https://formspree.io/f/mlekdbdj" method="post">
+            
+                <label for="name"></label>
+                <input type="text" id="name" name="user_name" placeholder="Yeremias" required maxlength="30" />
+              
+                <label for="mail"></label>
+                <input type="email" id="mail" name="user_email" placeholder="natajayanj14@gmail.com" maxlength="30"
+                  required />
+             
+                <label for="textarea"></label>
+                <textarea id="msg" name="user_msg" placeholder="Write your message here" maxlength="500"
+                  required></textarea>
+             
+                <label for="button"></label>
+                <button type="submit">Get in touch</button>
+            
+            </ul>
+          </form>
       </div>
     </section>
 
