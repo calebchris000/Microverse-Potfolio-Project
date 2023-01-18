@@ -97,13 +97,16 @@ li {
   height: 126px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
   color: #344563;
   flex: none;
   flex-grow: 0;
   order: 0;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-left: 10px;
+  height: 76px;
 }
 
 .connect {
@@ -130,7 +133,6 @@ li {
   display: flex;
   flex-direction: column;
 }
-
 
 .first-item img,
 .second-item img,
@@ -170,13 +172,7 @@ li {
   color: #7a869a;
 }
 
-.content {
-  font-size: 15px;
-  font-weight: 400;
-  margin: 0 auto;
-  margin-left: 10px;
-  height: 76px;
-}
+
 
 .madewith {
   display: flex;
