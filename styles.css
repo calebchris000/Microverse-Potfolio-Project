@@ -162,7 +162,7 @@ li {
 }
 
 .backend, .year {
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .content {
@@ -201,7 +201,7 @@ li {
 
 h3 {
   font-size: 40px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .about p {
@@ -234,8 +234,8 @@ h3 {
 
 .contact-container {
   align-items: center;
-  border: 2px solid #6070FF;
-  background-color: #6070FF;
+  border: 2px solid #6070ff;
+  background-color: #6070ff;
   height: 600px;
   border-top-left-radius: 80px;
   padding-left: 25%;
@@ -279,7 +279,7 @@ form textarea {
 }
 
 form button {
-  border: 2px solid #6070FF;
+  border: 2px solid #6070ff;
   width: 100px;
   height: 40px;
   align-items: center;
@@ -287,7 +287,7 @@ form button {
   position: relative;
   top: 10px;
   font-family: "poppins", sans-serif;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 10px;
 }
 
@@ -336,7 +336,7 @@ form button {
   }
 
   .first-item, .second-item, .fourth-item {
-    border: 2px solid #Dfe1e6;
+    border: 2px solid #dfe1e6;
     background-color: #fff;
     border-radius: 24px;
     height: fit-content;
