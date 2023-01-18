@@ -36,7 +36,6 @@ section {
   display: none;
 }
 
-
 .logo {
   font-family: "poppins", sans-serif;
   font-weight: 700;
@@ -361,17 +360,22 @@ form button {
   right: 60px;
 }
 
-  .fordesktop, .fordesk {
+  .fordesktop,
+  .fordesk {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .frameworks-header, .skills-header {
+  .frameworks-header,
+  .skills-header {
     position: relative;
     top: 30px;
   }
 
-  .html5, .css3, .javascript, .frameworks {
+  .html5,
+  .css3,
+  .javascript,
+  .frameworks {
    margin-right: 30px;
   }
 
