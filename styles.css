@@ -213,6 +213,44 @@ h3 {
 .about p {
   color: #344563;
 }
+.language {
+  padding: 60px;
+}
+
+.language-header, .frameworks-header, .skills-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle {
+  position: relative;
+}
+
+.html-container, .css-container, .js-container, .frameworks-container {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+
+.html5, .css3, .javascript, .frameworks {
+  margin-left: 20px;
+}
+
+.footer {
+  padding: 0;
+  margin: 0;
+}
+.contact-container {
+  border: 2px solid #6070FF;
+  background-color: #6070FF;
+  height: 300px;
+  border-top-left-radius: 80px;
+  
+}
+
+
+
 
 
 @media screen and (min-width: 768px){
@@ -260,5 +298,26 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+
+  .about {
+    width: 35%;
+  }
+
+
+
+  .fordesktop, .fordesk {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .frameworks-header, .skills-header {
+    position: relative;
+    top:30px;
+  }
+
+  .html5, .css3, .javascript, .frameworks {
+   margin-right: 30px;
+  }
+
 
 }
