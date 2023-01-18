@@ -1,7 +1,6 @@
 body {
   background-color: #172b4d;
   font-family: "poppins", sans-serif;
-
 }
 
 .space {
@@ -22,7 +21,7 @@ body {
   align-self: flex-start;
 }
 
-section{
+section {
   padding: 30px;
 }
 
@@ -35,7 +34,6 @@ section{
 
 .elements ul {
   display: none;
-
 }
 
 
@@ -83,7 +81,6 @@ li {
   margin-top: 20px;
 }
 
-
 .greeting {
   height: 120px;
   font-family: 'poppins', sans-serif;
@@ -117,13 +114,13 @@ li {
   order: 0;
   flex-grow: 0;
   position: relative;
-  top:20px;
+  top: 20px;
   left: 10px;
 }
 
 .social {
   position: relative;
-  top:20px;
+  top: 20px;
   left: 10px;
 }
 
@@ -133,10 +130,7 @@ li {
 .first-item, .second-item, .fourth-item {
   display: flex;
   flex-direction: column;
- 
 }
-
-
 
 
 .first-item img, .second-item img, .fourth-item img {
@@ -152,7 +146,6 @@ li {
 .feature {
   display: flex;
   margin-top: 10px;
-
 }
 
 .feature li, .feature img {
@@ -178,12 +171,10 @@ li {
   margin: 0 auto;
   margin-left: 10px;
   height: 76px;
-  
 }
 
 .madewith {
   display: flex;
-
 }
 
 .madewith div {
@@ -254,7 +245,6 @@ h3 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 .contact-container .con-me {
@@ -262,7 +252,6 @@ h3 {
   margin: 0 auto;
   text-align: center;
   color: #fff;
-
 }
 
 .contact-container p {
@@ -292,20 +281,19 @@ form textarea {
 form button {
   border: 2px solid #6070FF;
   width: 100px;
-  height:40px;
+  height: 40px;
   align-items: center;
   justify-content: center;
   position: relative;
-  top:10px;
+  top: 10px;
   font-family: "poppins", sans-serif;
   color: #6070FF;
   border-radius: 10px;
-
 }
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   body {
     background-color: green;
   }
@@ -354,9 +342,7 @@ form button {
     height: fit-content;
     flex-direction: row;
     padding: 40px 20px;
-
   }
-
  
   .middle li .description {
     display: flex;
@@ -382,7 +368,7 @@ form button {
 
   .frameworks-header, .skills-header {
     position: relative;
-    top:30px;
+    top: 30px;
   }
 
   .html5, .css3, .javascript, .frameworks {
