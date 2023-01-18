@@ -172,8 +172,6 @@ li {
   color: #7a869a;
 }
 
-
-
 .madewith {
   display: flex;
 }
@@ -182,7 +180,8 @@ li {
   border: 2px solid #ebebff;
   background-color: #ebebff;
   color: #6070ff;
-  padding: 0px 12px;
+  padding-left:12px;
+  padding-right: 12px;
   margin-right: 14px;
   border-radius: 8px;
   font-weight: 500;
@@ -240,7 +239,6 @@ h3 {
 .frameworks {
   margin-left: 20px;
 }
-
 
 .contact-container {
   align-items: center;
@@ -301,8 +299,6 @@ form button {
   border-radius: 10px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   body {
     background-color: green;
@@ -313,7 +309,6 @@ form button {
   }
 
   .elements {
-    padding: 0;
     height: fit-content;
     margin-top: 30px;
     padding: 20px;
@@ -329,12 +324,14 @@ form button {
     font-weight: 500;
     color: #344563;
   }
-
-  .second-item .port-1 {
-    order: 1;
+  
+ .port-1 {
+    width: 496px;
+    margin-right: 50px;
+    align-self: center;
   }
 
-  .fourth-item .port-1 {
+  .second-item .port-1 {
     order: 1;
   }
 
@@ -342,11 +339,7 @@ form button {
     order: 2;
   }
 
-  .port-1 {
-    width: 496px;
-    margin-right: 50px;
-    align-self: center;
-  }
+ 
 
   .first-item,
   .second-item,
