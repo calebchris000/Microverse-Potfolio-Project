@@ -126,17 +126,22 @@ li {
 .middle {
   padding: 40px;
 }
-.first-item, .second-item, .fourth-item {
+.first-item,
+.second-item,
+.fourth-item {
   display: flex;
   flex-direction: column;
 }
 
 
-.first-item img, .second-item img, .fourth-item img {
+.first-item img,
+.second-item img,
+.fourth-item img {
   width: 100%;
 }
 
-.tonic, .multi {
+.tonic,
+.multi {
   font-size: 32px;
   font-weight: 700;
   color: #091e42
@@ -147,7 +152,8 @@ li {
   margin-top: 10px;
 }
 
-.feature li, .feature img {
+.feature li,
+.feature img {
   margin-right: 10px;
   font-size: 13px;
   font-weight: 600;
@@ -160,7 +166,8 @@ li {
   color: #344563;
 }
 
-.backend, .year {
+.backend,
+.year {
   color: #7a869a;
 }
 
@@ -210,7 +217,9 @@ h3 {
   padding: 60px;
 }
 
-.language-header, .frameworks-header, .skills-header {
+.language-header,
+.frameworks-header,
+.skills-header {
   display: flex;
   justify-content: space-between;
 }
@@ -219,14 +228,20 @@ h3 {
   position: relative;
 }
 
-.html-container, .css-container, .js-container, .frameworks-container {
+.html-container,
+.css-container,
+.js-container,
+.frameworks-container {
   display: flex;
   align-items: center;
   vertical-align: middle;
   margin-bottom: 30px;
 }
 
-.html5, .css3, .javascript, .frameworks {
+.html5,
+.css3,
+.javascript,
+.frameworks {
   margin-left: 20px;
 }
 
@@ -334,7 +349,9 @@ form button {
     align-self: center;
   }
 
-  .first-item, .second-item, .fourth-item {
+  .first-item,
+  .second-item,
+  .fourth-item {
     border: 2px solid #dfe1e6;
     background-color: #fff;
     border-radius: 24px;
