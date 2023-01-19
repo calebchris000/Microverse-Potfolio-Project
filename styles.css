@@ -20,10 +20,10 @@ body {
   background-color: #fff;
   border: 2px solid #fff;
   position: sticky;
-  top: 0px;
+  top: 0.1px;
   margin: 0;
   padding-left: 1rem;
-  box-shadow: 0px 2px 15px #777777;
+  box-shadow: -1px 2px 15px #777;
 }
 
 ul {
@@ -33,7 +33,6 @@ ul {
 .elements ul {
   display: none;
 }
-
 
 .logo {
   font-family: "poppins", sans-serif;
@@ -51,7 +50,6 @@ li {
   display: flex;
   list-style: none;
   margin-top: 40px;
-
 }
 
 .top {
@@ -121,8 +119,6 @@ li {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
-
 .connect,
 .connected {
   font-family: 'poppins', sans-serif;
@@ -144,7 +140,7 @@ li {
 .fourth-item {
   display: flex;
   flex-direction: column;
-  margin-left: 0px;
+  margin-left: 0.1px;
   margin-right: 40px;
 }
 
@@ -222,15 +218,13 @@ h3 {
 
 .about,
 .language {
-  padding: 30px
+  padding: 30px;
 }
 
 .about p {
   color: #344563;
   font-size: 16px;
 }
-
-
 
 .language-header,
 .frameworks-header,
