@@ -361,6 +361,7 @@ form button:hover {
   }
 
   .top {
+    padding-top: 359px;
     padding-left: 260px;
     padding-right: 260px;
   }
