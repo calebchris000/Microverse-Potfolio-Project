@@ -1,36 +1,34 @@
 body {
-  background-color: #172b4d;
   font-family: "poppins", sans-serif;
+  background-image: url(./Graphics/header-shapes\ mobile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0;
+
+
 }
 
 .space {
   margin-top: 100px;
 }
 
-.container {
-  height: fit-content;
-  background-color: #fff;
-  background-image: url(./Graphics/header-shapes\ mobile.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-}
-
 .status {
   align-self: flex-start;
 }
 
-section {
-  padding: 30px;
-}
 
 .elements {
-  margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  position: sticky;
+  top: 0px;
+  margin: 0;
+  padding-left: 1rem;
+  box-shadow: 0px 2px 15px #777777;
 }
+
 
 ul {
   margin-left: -35px;
@@ -39,6 +37,7 @@ ul {
 .elements ul {
   display: none;
 }
+
 
 .logo {
   font-family: "poppins", sans-serif;
@@ -55,12 +54,23 @@ li {
 .social {
   display: flex;
   list-style: none;
-  position: relative;
-  top: 20px;
-  left: 10px;
+  margin-top: 40px;
+
 }
 
-.social img {
+.top {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.socials {
+  display: flex;
+  list-style: none;
+  margin-top: 14px;
+}
+
+.social img,
+.socials img {
   height: 20px;
   margin-right: 20px;
 }
@@ -84,16 +94,19 @@ li {
 }
 
 .greeting {
-  height: 120px;
   font-family: 'poppins', sans-serif;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  order: 0;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
+  height: 76px;
+  width: 380px;
+
+
 }
 
-.content {
+.content,
+.contents {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   line-height: 24px;
@@ -103,27 +116,37 @@ li {
   order: 0;
   font-size: 15px;
   font-weight: 400;
-  margin: 0 auto;
-  margin-left: 10px;
-  height: 76px;
+
 }
 
-.connect {
+.content {
+  min-height: 106px;
+}
+
+.contents {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.connect,
+.connected {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  order: 0;
-  flex-grow: 0;
-  position: relative;
-  top: 20px;
-  left: 10px;
+  margin-top: 12px;
 }
 
-.middle {
-  padding: 40px;
+.connected {
+  margin-top: 12px;
+  margin-bottom: 14px;
+}
+
+.socials {
+  margin-left: 10;
 }
 
 .first-item,
@@ -131,6 +154,8 @@ li {
 .fourth-item {
   display: flex;
   flex-direction: column;
+  margin-left: 0px;
+  margin-right: 40px;
 }
 
 .first-item img,
@@ -144,6 +169,7 @@ li {
   font-size: 32px;
   font-weight: 700;
   color: #091e42;
+  margin-left: -5px;
 }
 
 .feature {
@@ -187,15 +213,16 @@ li {
 }
 
 .seeproject {
-  position: relative;
-  top: 30px;
+  margin-top: 20px;
   border: 2px solid #6070ff;
   border-radius: 10px;
-  width: 100px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
   font-weight: 500;
   color: #396df2;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 h3 {
@@ -203,13 +230,18 @@ h3 {
   color: #172b4d;
 }
 
-.about p {
-  color: #344563;
+.about,
+.language {
+  padding: 30px
 }
 
-.language {
-  padding: 60px;
+.about p {
+  color: #344563;
+  font-size: 16px;
+
 }
+
+
 
 .language-header,
 .frameworks-header,
@@ -218,9 +250,12 @@ h3 {
   justify-content: space-between;
 }
 
-.toggle {
-  position: relative;
+.frameworks-header,
+.skills-header {
+  padding: 15px;
 }
+
+
 
 .html-container,
 .css-container,
@@ -228,7 +263,6 @@ h3 {
 .frameworks-container {
   display: flex;
   align-items: center;
-  vertical-align: middle;
   margin-bottom: 30px;
 }
 
@@ -241,7 +275,6 @@ h3 {
 
 .contact-container {
   align-items: center;
-  border: 2px solid #6070ff;
   background-color: #6070ff;
   height: 600px;
   border-top-left-radius: 80px;
@@ -270,14 +303,13 @@ h3 {
 form {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 form input {
   width: 100%;
   height: 48px;
   margin-bottom: 20px;
-  border: none;
+  border: 1px solid #fff;
 }
 
 form textarea {
@@ -286,31 +318,38 @@ form textarea {
 }
 
 form button {
-  border: 2px solid #6070ff;
-  width: 100px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
+  border: 2px solid #fff;
+  padding: 12px 16px;
   position: relative;
   top: 10px;
   font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
   color: #6070ff;
-  border-radius: 10px;
+  border-radius: 8px;
+  width: fit-content;
 }
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: green;
+    padding: 0;
   }
 
   .hamburger {
     display: none;
+
   }
 
-  .elements {
-    height: fit-content;
-    margin-top: 30px;
-    padding: 20px;
+  .greeting,
+  .content,
+  .socials,
+  .connected {
+    padding-left: 162px;
+    padding-right: 162px;
+  }
+
+  .socials {
+    margin-left: 5px;
   }
 
   .elements ul {
@@ -323,6 +362,8 @@ form button {
     font-weight: 500;
     color: #344563;
   }
+
+
 
   .port-1 {
     width: 496px;
@@ -346,37 +387,35 @@ form button {
     border-radius: 24px;
     height: fit-content;
     flex-direction: row;
-    padding: 40px 20px;
+    padding: 50px;
+    margin-left: 142px;
+    margin-right: 142px;
   }
+
 
   .middle li .description {
     display: flex;
     flex-direction: column;
   }
 
-  .about {
-    width: 35%;
-    position: relative;
-    left: 50px;
+
+  .language {
+    margin-top: 60px;
+    margin-left: 49px;
   }
 
   .fordesktop {
-    margin: 0 auto;
-    position: relative;
-    right: 60px;
+    padding: 142px;
   }
 
   .fordesktop,
   .fordesk {
     display: flex;
     justify-content: space-evenly;
+
   }
 
-  .frameworks-header,
-  .skills-header {
-    position: relative;
-    top: 30px;
-  }
+
 
   .html5,
   .css3,
@@ -387,5 +426,23 @@ form button {
 
   .contact-container p {
     font-size: 20px;
+  }
+
+  form {
+    align-items: center;
+  }
+
+  form button {
+    border: 2px solid #fff;
+    align-items: center;
+    padding: 12px 16px;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #6070ff;
+    border-radius: 8px;
   }
 }
