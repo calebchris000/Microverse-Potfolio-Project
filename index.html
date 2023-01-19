@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
   <title>Portfolio</title>
 </head>
 
@@ -14,9 +17,9 @@
       <p><a href="https://github.com/calebchris000" class="logo">CALEB</a></p>
       <nav class="hamburger"><img src="./Graphics/Normal Button/Tertiary/Icons/Union.svg" alt=""></nav>
       <ul>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
    
@@ -44,7 +47,6 @@
         <li class="icon twitter">
           <a href="https://twitter.com/calebchris000"><img src="./Graphics/twitter.svg" alt="twitter"></a>
         </li>
-
         <li class="icon linkedin">
           <a href="https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/"><img src="./Graphics/Linkedin icon.svg"
               alt="linkedin"></a>
@@ -63,7 +65,7 @@
       </ul>
     </section>
 
-    <section class="middle">
+    <section class="middle" id="portfolio">
       <ul class="first-item">
 
         <li class="port-1"><img src="./Graphics/Snapshoot Portfolio.jpg" alt="image-1"></li>
@@ -94,7 +96,7 @@
           </div>
 
           <div class="seeproject">
-            <p>See Project</p>
+            <button type="submit">See Project</button>
           </div>
         </li>
 
@@ -132,7 +134,7 @@
           </div>
 
           <div class="seeproject">
-            <p>See Project</p>
+            <button type="submit">See Project</button>
           </div>
         </li>
 
@@ -169,7 +171,7 @@
           </div>
 
           <div class="seeproject">
-            <p>See Project</p>
+            <button type="submit">See Project</button>
           </div>
         </li>
 
@@ -207,13 +209,13 @@
           </div>
 
           <div class="seeproject">
-            <p>See Project</p>
+            <button type="submit">See Project</button>
           </div>
         </li>
       </ul>
     </section>
 
-    <div class="fordesktop">
+    <div class="fordesktop" id="about">
       <section class="about">
         <h3>About <br>Myself</h3>
 
@@ -252,7 +254,7 @@
         </ul>
 
         <div class="seeproject">
-          <p>Get my resume</p>
+          <button type="submit">Get My Resume</button>
         </div>
       </section>
   <div class="space"></div>
@@ -307,7 +309,7 @@
 
     <section class="footer">
       
-      <div class="contact-container">
+      <div class="contact-container" id="contact">
         <h2 class="con-me">Contact me</h2>
         <p>If you have an application you are interested in developing, a
           feature that you need built or a project
