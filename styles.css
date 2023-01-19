@@ -1,9 +1,10 @@
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-image: url(./Graphics/header-shapes\ mobile.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0;
+  background-color: #f4f5f7;
 }
 
 .space {
@@ -35,7 +36,7 @@ ul {
 }
 
 .logo {
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
@@ -60,8 +61,8 @@ li {
 .socials {
   display: flex;
   list-style: none;
-  margin-top: 14px;
   margin-left: 10;
+  margin-bottom: 130px;
 }
 
 .social img,
@@ -89,30 +90,29 @@ li {
 }
 
 .greeting {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 36px;
   height: 76px;
-  width: 380px;
 }
 
 .content,
 .contents {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   line-height: 24px;
   color: #344563;
   flex: none;
   flex-grow: 0;
   order: 0;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .content {
-  min-height: 106px;
+  margin-bottom: 16px;
 }
 
 .contents {
@@ -122,7 +122,7 @@ li {
 
 .connect,
 .connected {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -208,13 +208,14 @@ li {
   color: green;
 }
 
-.seeproject {
+button {
+  font-family: "Poppins", sans-serif;
   margin-top: 20px;
   border: 2px solid #6070ff;
+  background-color: #fff;
   border-radius: 10px;
   width: fit-content;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   font-weight: 500;
   color: #396df2;
   text-align: center;
@@ -229,7 +230,7 @@ h3 {
 
 .about,
 .language {
-  padding: 30px;
+  padding: 50px;
 }
 
 .about p {
@@ -247,6 +248,7 @@ h3 {
 .frameworks-header,
 .skills-header {
   padding: 15px;
+  border-bottom: 2px solid #dfe1e6;
 }
 
 .html-container,
@@ -263,6 +265,7 @@ h3 {
 .javascript,
 .frameworks {
   margin-left: 20px;
+  color: #253858;
 }
 
 .contact-container {
@@ -314,7 +317,7 @@ form button {
   padding: 12px 16px;
   position: relative;
   top: 10px;
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
@@ -322,9 +325,29 @@ form button {
   width: fit-content;
 }
 
-.seeproject:hover,
+button:disabled {
+  background-color: #637187;
+  border-color: #637187;
+}
+
+button:active {
+  background-color: #2230d2;
+  border-color: #2230d2;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+button:hover,
 form button:hover {
   transform: scale(1.1);
+}
+
+form button:hover {
+  border-color: #6070ff;
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -336,21 +359,29 @@ form button:hover {
     display: none;
   }
 
-  .greeting,
-  .content,
-  .socials,
-  .connected {
-    padding-left: 162px;
-    padding-right: 162px;
+  .top {
+    padding-left: 260px;
+    padding-right: 260px;
   }
 
-  .socials {
-    margin-left: 5px;
+  .content {
+    font-size: 20px;
+    margin-top: 12px;
+    height: fit-content;
   }
 
   .elements ul {
     display: flex;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .elements a {
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .socials {
+    margin-bottom: 397px;
   }
 
   .elements ul li {
@@ -393,10 +424,13 @@ form button:hover {
 
   .language {
     margin-top: 60px;
-    margin-left: 49px;
+    margin-left: 59px;
   }
 
   .fordesktop {
+    border: 5px solid #fff;
+    background-color: #fff;
+    border-top-right-radius: 160px;
     padding: 142px;
   }
 
@@ -406,11 +440,25 @@ form button:hover {
     justify-content: space-evenly;
   }
 
+  .html-container,
+  .css-container,
+  .js-container,
+  .frameworks-container {
+    display: block;
+    margin-bottom: 30px;
+    background-color: #f7f7f9;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    padding: 22px 20px;
+  }
+
   .html5,
   .css3,
   .javascript,
   .frameworks {
-    margin-right: 30px;
+    margin-left: 0.01px;
+    margin-right: 60px;
   }
 
   .contact-container p {
@@ -421,6 +469,19 @@ form button:hover {
     align-items: center;
   }
 
+  form input,
+  form textarea {
+    width: 447px;
+  }
+
+  form input {
+    height: 48px;
+  }
+
+  form textarea {
+    height: 170px;
+  }
+
   form button {
     border: 2px solid #fff;
     align-items: center;
@@ -428,7 +489,7 @@ form button:hover {
     justify-content: center;
     position: relative;
     top: 10px;
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 17px;
     color: #6070ff;
