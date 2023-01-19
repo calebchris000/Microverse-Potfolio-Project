@@ -4,8 +4,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0;
-
-
 }
 
 .space {
@@ -15,7 +13,6 @@ body {
 .status {
   align-self: flex-start;
 }
-
 
 .elements {
   display: flex;
@@ -28,7 +25,6 @@ body {
   padding-left: 1rem;
   box-shadow: 0px 2px 15px #777777;
 }
-
 
 ul {
   margin-left: -35px;
@@ -67,6 +63,7 @@ li {
   display: flex;
   list-style: none;
   margin-top: 14px;
+  margin-left: 10;
 }
 
 .social img,
@@ -101,8 +98,6 @@ li {
   margin-bottom: 36px;
   height: 76px;
   width: 380px;
-
-
 }
 
 .content,
@@ -116,7 +111,6 @@ li {
   order: 0;
   font-size: 15px;
   font-weight: 400;
-
 }
 
 .content {
@@ -143,10 +137,6 @@ li {
 .connected {
   margin-top: 12px;
   margin-bottom: 14px;
-}
-
-.socials {
-  margin-left: 10;
 }
 
 .first-item,
@@ -238,7 +228,6 @@ h3 {
 .about p {
   color: #344563;
   font-size: 16px;
-
 }
 
 
@@ -254,8 +243,6 @@ h3 {
 .skills-header {
   padding: 15px;
 }
-
-
 
 .html-container,
 .css-container,
@@ -337,7 +324,6 @@ form button {
 
   .hamburger {
     display: none;
-
   }
 
   .greeting,
@@ -362,8 +348,6 @@ form button {
     font-weight: 500;
     color: #344563;
   }
-
-
 
   .port-1 {
     width: 496px;
@@ -392,12 +376,10 @@ form button {
     margin-right: 142px;
   }
 
-
   .middle li .description {
     display: flex;
     flex-direction: column;
   }
-
 
   .language {
     margin-top: 60px;
@@ -412,10 +394,7 @@ form button {
   .fordesk {
     display: flex;
     justify-content: space-evenly;
-
   }
-
-
 
   .html5,
   .css3,
