@@ -197,6 +197,15 @@ li {
   margin-right: 14px;
   border-radius: 8px;
   font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.madewith div:hover {
+  border: 2px solid green;
+  border-radius: 8px;
+  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+  transform: scale(1.1);
+  color: green;
 }
 
 .seeproject {
@@ -210,6 +219,7 @@ li {
   color: #396df2;
   text-align: center;
   font-size: 16px;
+  transition: all 0.5s ease;
 }
 
 h3 {
@@ -310,6 +320,11 @@ form button {
   color: #6070ff;
   border-radius: 8px;
   width: fit-content;
+}
+
+.seeproject:hover,
+form button:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -418,5 +433,6 @@ form button {
     font-size: 17px;
     color: #6070ff;
     border-radius: 8px;
+    transition: all 0.5s ease;
   }
 }
