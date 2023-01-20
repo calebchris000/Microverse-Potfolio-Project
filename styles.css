@@ -494,6 +494,14 @@ form button:hover {
     padding: 22px 20px;
   }
 
+  .anime {
+    transition: all 1s ease-in-out;
+  }
+
+  .anime:hover {
+    transform: scale(2.1);
+  }
+
   .html5,
   .css3,
   .javascript,
