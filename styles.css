@@ -42,6 +42,16 @@ ul {
   font-size: 1.125rem;
   color: #6070ff;
   text-decoration: none;
+  transition: all 1s ease;
+  animation: rotate;
+}
+
+.mylogo {
+  transition: all 1s ease;
+}
+
+.mylogo:hover {
+  transform: rotate(180deg);
 }
 
 li {
