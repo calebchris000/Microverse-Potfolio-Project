@@ -362,6 +362,10 @@ form button:hover {
   color: #fff;
 }
 
+.scal:hover {
+  transform: scale(1.2);
+}
+
 @media screen and (max-width: 320px) {
   .greeting {
     height: 170px;

@@ -16,6 +16,8 @@
       }
     ]
   },
+"block-closing-brace-space-before": "never",
+    "block-closing-brace-empty-line-before": "never",
   "csstree/validator": true,
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
