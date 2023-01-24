@@ -262,6 +262,16 @@ h3 {
   border-bottom: 2px solid #dfe1e6;
 }
 
+.language-header h1,
+.frameworks,
+.skills {
+  color: #2b3e58;
+  font-weight: 400;
+  font-size: 1.1rem;
+  position: relative;
+  bottom: 10px;
+}
+
 .html-container,
 .css-container,
 .js-container,
