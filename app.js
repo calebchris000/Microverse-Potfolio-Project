@@ -38,7 +38,7 @@ hamburger.addEventListener('click', function () {
         each.style.textDecoration = 'none';
         each.style.color = 'white';
         each.style.fontWeight = '700';
-        each.style.fontSize = '2.5rem';
+        each.style.fontSize = '2.0rem';
        })
 
 
