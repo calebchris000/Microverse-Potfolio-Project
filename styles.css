@@ -8,12 +8,26 @@ body {
   scroll-behavior: smooth;
 }
 
+.menulist {
+  display: none;
+}
+
 .space {
   margin-top: 100px;
 }
 
 .status {
   align-self: flex-start;
+}
+
+#cross {
+  display: none;
+  margin-bottom: 50px;
+}
+
+#cross:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
 }
 
 .elements {
@@ -30,10 +44,6 @@ body {
 
 ul {
   margin-left: -35px;
-}
-
-.elements ul {
-  display: none;
 }
 
 .logo {
