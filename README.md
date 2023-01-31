@@ -36,8 +36,8 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
-- [📖 Math Magicians ](#-math-magicians-)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Microverse Portfolio Project ](#-microverse-portfolio-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -56,9 +56,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magicians <a name="about-project"></a>
+# 📖 Microverse Portfolio Project <a name="about-project"></a>
 
-**Math Magicians** is a tool that helps to Calculate. It's build using React.
+**Microverse Portfolio Project** is the portfolio created by me with the use of HTML
+,CSS and Javascript
 
 ## 🛠 Built With <a name="built-with"></a>
 
