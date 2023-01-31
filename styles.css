@@ -456,6 +456,7 @@ form button:hover {
 @media screen and (min-width: 768px) {
   body {
     padding: 0;
+    background-image: url(./Graphics/Header\ bg.svg);
   }
 
   .hamburger {
@@ -475,13 +476,20 @@ form button:hover {
   }
 
   .elements ul {
+    padding: 0;
     display: flex;
+    height: fit-content;
+    margin-top: -40px;
     font-family: "Poppins", sans-serif;
   }
 
   .elements a {
+    margin: 0;
+    padding: 0;
     color: #344563;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9375rem;
   }
 
   .socials {
