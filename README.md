@@ -1,105 +1,192 @@
 
+<a name="readme-top"></a>
 
-# 📖 Microverse Portfolio
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
+Modify this file to match your project and remove sections that don't apply.
 
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-**Microverse Portfolio**: My official portfolio
+After you're finished please remove all the comments and instructions!
+-->
 
-## 🛠 Built With HTML and CSS
+<div align="center">
 
-### Tech Stack
+  <img src="https://user-images.githubusercontent.com/74345713/208942551-07d6427b-ff1a-4d6e-8f14-21c206cbe1db.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
+  <h3><b>Microverse Portfolio Project With JavaScript</b></h3>
 
+</div>
 
- **HTML Markup**
+<!-- TABLE OF CONTENTS -->
 
-   [HTML](https://www.w3.org/)
+# 📗 Table of Contents
 
+- [� Table of Contents](#-table-of-contents)
+- [📖 Math Magicians ](#-math-magicians-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started with Math Magicians ](#-getting-started-with-math-magicians-)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Start](#start)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
+<!-- PROJECT DESCRIPTION -->
 
-  **Styling**
+# 📖 Math Magicians <a name="about-project"></a>
 
-  [CSS](https://web.dev/learn/css/)
+**Math Magicians** is a tool that helps to Calculate. It's build using React.
 
+## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 
-## 🚀 Live Demo
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">HTML</a></li>
+    <li><a href="">CSS</a></li>
+    <li><a href="">JavaScript</a></li>
+  </ul>
+</details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Uses Javascript**
+- **Based on latest ES6 syntax**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://calebchris000.github.io/Microverse-Potfolio-Project/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
 
-## 💻 Getting Started
+## 💻 Getting Started with Math Magicians <a name="getting-started"></a>
 
+### Setup
 
+Clone this [repository](https://github.com/calebchris000/Microverse-Potfolio-Project.git) to your desired folder:
 
-To get a local copy up and running, follow these steps.
+```sh
+  cd my-folder
+  git clone https://github.com/calebchris000/Microverse-Potfolio-Project.git
+  cd Microverse-Portfolio-Project
+```
 
+### Install
 
+Install this project with:
 
-## 👥 Authors
+```sh
+  npm install
+```
 
+### Start
 
+To start the application, run the following command
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Caleb Nwaizu**
 
-- GitHub: [@githubhandle](https://github.com/calebchris000)
-- Twitter: [@twitterhandle](https://twitter.com/calebchris000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+- GitHub: [Yash](https://github.com/calebchris000)
+- LinkedIn: [Yash Solo](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+- Twitter: [Yash Solo](https://twitter.com/calebchris000)
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTRIBUTING -->
 
-## 🔭 Future Features
-
-
-
-- [STYLING ] **Add more skills to the portfolio**
-
-
-
-
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 
+<!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Will-have-a-better-style]**
+- [ ] **[I will have more skills]**
+
+<!-- > Describe 1 - 3 features you will add to the project.
+
+- **Add more skills**
+- **Make the portfolio more professional**  -->
+
+<!-- FUTURE FEATURES -->
 
 
-## ⭐️ Show your support
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+A huge thanks to Microverse and my teammates for making building this project possible.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you like this project, feel free to donate at our [PayPal link](paypal.com)
+<!-- LICENSE -->
 
+## 📝 License <a name="license"></a>
 
+This project is [MIT](https://github.com/Wahaj-Ali/To-do-list/blob/main/LICENSE) licensed.
 
-## 🙏 Acknowledgments
-
-
-
-I would like to thank Microverse for helping me create this README file
-
-
-
-## ❓ FAQ
-
-
-- **[Are you adaptable to any working environment?]**
-
- - [Depend on the kind of environmant.I won't want to work in a place that is hostile though.']
-
-- **[What qualifications do you hold currenly?]**
-
- - [Refer to my portfolio]
-
-
-
-## 📝 License
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
