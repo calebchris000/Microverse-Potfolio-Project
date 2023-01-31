@@ -25,7 +25,6 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/74345713/208942551-07d6427b-ff1a-4d6e-8f14-21c206cbe1db.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse Portfolio Project With JavaScript</b></h3>
