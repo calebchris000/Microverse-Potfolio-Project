@@ -137,9 +137,9 @@ To run tests, run the following command:
 
 👤 **Caleb Nwaizu**
 
-- GitHub: [Yash](https://github.com/calebchris000)
-- LinkedIn: [Yash Solo](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
-- Twitter: [Yash Solo](https://twitter.com/calebchris000)
+- GitHub: [calebchris000](https://github.com/calebchris000)
+- LinkedIn: [.caleb-nwaizu](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+- Twitter: [calebchris000](https://twitter.com/calebchris000)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
