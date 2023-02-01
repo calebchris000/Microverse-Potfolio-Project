@@ -142,7 +142,7 @@ To run tests, run the following command:
 
 👤 **Martin Ossa**
 
-- GitHub: [maov19][https://github.com/maov19)
+- GitHub: [maov19](https://github.com/maov19)
 - LinkedIn: [martin.ossa](https://www.linkedin.com/in/mart%C3%ADn-ossa-228672135/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
