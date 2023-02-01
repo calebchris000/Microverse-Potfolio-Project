@@ -126,7 +126,6 @@ li {
   bottom: 0;
   width: 100%;
   height: 100vh;
-  transition: all 0.5s ease-in-out;
   align-items: flex-start;
   z-index: -1;
   background: rgba(0, 41, 183, 0.5);
