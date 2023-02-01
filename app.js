@@ -1,4 +1,4 @@
-//The middle section of the HTML document
+// The middle section of the HTML document
 let middleSection = `   <section class="middle" id="portfolio">
 <ul class="first-item" id="first-item">
   <li class="port-1"><img src="./Graphics/Snapshoot Portfolio.jpg" alt="portfolio-image-1"></li>
