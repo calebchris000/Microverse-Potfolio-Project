@@ -245,9 +245,8 @@ for (let i = 0; i < portfolios.length; i++) {
 
 
 }
-
-
 hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('active');
     nav.classList.toggle('active');
 });
+
