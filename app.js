@@ -13,55 +13,59 @@ hamburger.addEventListener('click', function () {
 // All of the card's data in an array
 let portfolios = [
     {
-        'title': 'Tonic',
-        'listItems': [
-            'CANOPY',
-            'Back End Dev',
-            '2015'
-        ],
+        'content': 'A daily selection of privately personalized reads;',
+        'cuntent': ' no accounts or sign-ups required.',
         'image': './Graphics/Snapshoot Portfolio.jpg',
-        'content': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        'seelive': 'See live',
-        'seesource': 'See Source'
-    },
-
-    {
-        'title': 'Multi-Post Stories',
         'listItems': [
             'CANOPY',
             'Back End Dev',
             '2015'
         ],
+        'seelive': 'See live',
+        'seesource': 'See Source',
+        'title': 'Tonic'
+    },
+
+    {
+        'content': 'A daily selection of privately personalized reads;',
+        'cuntent': ' no accounts or sign-ups required.',
         'image': './Graphics/Snapshoot Portfolio 2.jpg',
-        'content': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        'seelive': 'See live',
-        'seesource': 'See Source'
-    },
-
-    {
-        'title': 'Tonic',
         'listItems': [
             'CANOPY',
             'Back End Dev',
             '2015'
         ],
+        'seelive': 'See live',
+        'seesource': 'See Source',
+        'title': 'Multi-Post Stories'
+    },
+
+    {
+        'content': 'A daily selection of privately personalized reads;',
+        'cuntent': ' no accounts or sign-ups required.',
         'image': './Graphics/Snapshoot Portfolio 3.jpg',
-        'content': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        'seelive': 'See live',
-        'seesource': 'See Source'
-    },
-
-    {
-        'title': 'Multi-Post Stories',
         'listItems': [
             'CANOPY',
             'Back End Dev',
             '2015'
         ],
-        'image': './Graphics/Snapshoot Portfolio 4.jpg',
-        'content': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
         'seelive': 'See live',
-        'seesource': 'See Source'
+        'seesource': 'See Source',
+        'title': 'Tonic'
+    },
+
+    {
+        'content': 'A daily selection of privately personalized reads;',
+        'cuntent': ' no accounts or sign-ups required.',
+        'image': './Graphics/Snapshoot Portfolio 4.jpg',
+        'listItems': [
+            'CANOPY',
+            'Back End Dev',
+            '2015'
+        ],
+        'seelive': 'See live',
+        'seesource': 'See Source',
+        'title': 'Multi-Post Stories'
     }
 ]
 
@@ -73,15 +77,15 @@ let topicText = {
 
 // Stylings for the toxic text and cancel button wrapper
 let toxicWrapStyle = {
+    'alignItems': 'center',
     'display': 'flex',
-    'justifyContent': 'space-between',
-    'alignItems': 'center'
+    'justifyContent': 'space-between'
 }
 
 // Stylings for the cancel button
 let cancelButtonStyle = {
-    'border': 'none',
     'backgroundColor': 'rgba(0,0,0,0)',
+    'border': 'none',
     'color': '#172b4d',
     'fontSize': '2.25rem',
     'position': 'relative',
@@ -95,21 +99,21 @@ let thirdWrapperStyle = {
 // Stylings for the third element
 let thirdStyle = {
     'color': '#344563',
-    'fontWeight': '600',
     'fontSize': '16px',
+    'fontWeight': '600',
     'marginRight': '10px'
 }
 
 // The image style
 let portStyle = {
-    'width': '100%',
     'borderRadius': '10px',
-    'marginTop': '10px'
+    'marginTop': '10px',
+    'width': '100%'
 }
 
 // The content styling
 let contentStyle = {
-    'color': '#000',
+    'color': '#344563',
     'fontSize': '15px'
 }
 
@@ -121,32 +125,32 @@ let buildStyle = {
 
 // The html, css and js styling
 let htmlcssjs = {
-    'border': '2px solid #ebebff',
-    'width': 'fit-content',
-    'marginRight': '10px',
-    'color': '#6070ff',
-    'padding': '0 12px',
     'backgroundColor': '#ebebff',
+    'border': '2px solid #ebebff',
+    'borderRadius': '8px',
+    'color': '#6070ff',
     'fontWeight': '500',
-    'borderRadius': '8px'
+    'marginRight': '10px',
+    'padding': '0 12px',
+    'width': 'fit-content'
 };
 
 // The button wrapper style
 let buttonWrapperStyle = {
     'display': 'flex',
-    'marginTop': '30px',
+    'justifyContent': 'space-between',
     'marginBottom': '60px',
-    'justifyContent': 'space-between'
+    'marginTop': '30px'
 };
 
 // The two buttons style
 let twoButtonsStyle = {
-    'border': '2px solid #6070ff',
-    'padding': '8px 16px',
+    'border': '1px solid #6070ff',
     'borderRadius': '8px',
     'color': '#6070ff',
-    'userSelect': 'none',
-    'fontWeight': '500'
+    'fontWeight': '500',
+    'padding': '8px 12px',
+    'userSelect': 'none'
 }
 
 // The containers of which the card popup would originate from.
@@ -168,28 +172,29 @@ let buttons = [
 
 // The card popup style itself
 let containerStyles = {
-    'backgroundColor': 'rgba(255,255,255,1)',
-    'width': '80vw',
-    'height': '100vh',
-    'position': 'fixed',
-    'top': '10px',
-    'left': '50%',
-    'transform': 'translateX(-50%) translateY(5%)',
-    'borderRadius': '16px',
     'alignItems': 'center',
+    'backgroundColor': 'rgba(255,255,255,1)',
+    'borderRadius': '16px',
     'display': 'none',
-    'padding': '1px 20px',
+    'height': '75vh',
+    'left': '50%',
     'overflowY': 'scroll',
+    'padding': '1px 20px',
+    'position': 'fixed',
+    'top': '40px',
+    'transform': 'translateX(-50%) translateY(5%)',
+    'width': '80vw',
     'zIndex': '4'
 }
 
 // The loop function that sticks the buttons to each card popup
-for (let i = 0; i < portfolios.length; i++) {
+let inc = 1
+for (let it = 0; it < portfolios.length; it += inc) {
 
     // The container element for the popup
     let popupModal = document.createElement('div');
     Object.assign(popupModal.style, containerStyles);
-    items[i].appendChild(popupModal);
+    items[it].appendChild(popupModal);
 
     let topicWrapper = document.createElement('div');
     Object.assign(topicWrapper.style, toxicWrapStyle)
@@ -198,7 +203,7 @@ for (let i = 0; i < portfolios.length; i++) {
     let topic = document.createElement('h2');
     let cancel = document.createElement('button');
     cancel.innerHTML = '&times';
-    topic.innerHTML = portfolios[i].title;
+    topic.innerHTML = portfolios[it].title;
     Object.assign(topic.style, topicText)
     Object.assign(cancel.style, cancelButtonStyle)
     topicWrapper.appendChild(topic);
@@ -209,11 +214,12 @@ for (let i = 0; i < portfolios.length; i++) {
     popupModal.appendChild(thirdWrapper);
 
     // The third elements
-    let thirdElements = portfolios[i].listItems
-    for (let it = 0; it < thirdElements.length; it++) {
+    let thirdElements = portfolios[it].listItems;
+    let increment = 1
+    for (let is = 0; is < thirdElements.length; is += increment) {
 
         let lists = document.createElement('div');
-        lists.innerHTML = `${thirdElements[it]} &#x2022;`;
+        lists.innerHTML = `${thirdElements[is]} &#x2022;`;
         Object.assign(lists.style, thirdStyle)
         thirdWrapper.appendChild(lists)
     }
@@ -228,7 +234,7 @@ for (let i = 0; i < portfolios.length; i++) {
 
     // The content element
     let content = document.createElement('p')
-    content.innerHTML = portfolios[it].content
+    content.innerHTML = portfolios[it].content + portfolios[it].cuntent
     Object.assign(content.style, contentStyle)
     popupModal.appendChild(content);
 
@@ -269,11 +275,9 @@ for (let i = 0; i < portfolios.length; i++) {
 
     // The event listeners for the buttons
     buttons[it].addEventListener('click', () => {
-        let overlay = document.getElementById('overlay');
         if (overlay.style.display === 'block') {
             overlay.style.display = 'none'
-        }
-        else {
+        } else {
             overlay.style.display = 'block'
         }
         popupModal.style.display = 'block'
@@ -290,5 +294,4 @@ for (let i = 0; i < portfolios.length; i++) {
         overlay.style.display = 'none'
         popupModal.style.display = 'none';
     })
-
 }
