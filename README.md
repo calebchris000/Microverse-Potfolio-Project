@@ -137,9 +137,13 @@ To run tests, run the following command:
 👤 **Caleb Nwaizu**
 
 - GitHub: [calebchris000](https://github.com/calebchris000)
-- LinkedIn: [.caleb-nwaizu](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+- LinkedIn: [.martin-ossa](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
 - Twitter: [calebchris000](https://twitter.com/calebchris000)
 
+👤 **Martin Ossa**
+
+- GitHub: [maov19](https://github.com/maov19)
+- LinkedIn: [martin.ossa](https://www.linkedin.com/in/mart%C3%ADn-ossa-228672135/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
