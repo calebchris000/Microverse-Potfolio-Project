@@ -1,6 +1,7 @@
 //The popup-menu
 let hamburger = document.querySelector('.hamburger');
 let nav = document.querySelector('.menulist');
+let overlay = document.getElementById('overlay')
 
 hamburger.addEventListener('click', function () {
     hamburger.classList.toggle('active');
@@ -253,13 +254,14 @@ for (let i = 0; i < portfolios.length; i++) {
         popupModal.style.display = 'block'
     })
 
+    hamburger.addEventListener('click', function(){
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+    
+    cancel.addEventListener('click', function(){
+        overlay.style.display = 'none'
+        popupModal.style.display = 'none';
+    })
 
 }
-hamburger.addEventListener('click', function(){
-    hamburger.classList.toggle('active');
-    nav.classList.toggle('active');
-});
-
-cancel.addEventListener('click', function(){
-    popupModal.style.display = 'none';
-})
