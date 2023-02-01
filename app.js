@@ -210,10 +210,10 @@ for (let i = 0; i < portfolios.length; i++) {
 
     // The third elements
     let thirdElements = portfolios[i].listItems
-    for (let i = 0; i < thirdElements.length; i++) {
+    for (let it = 0; it < thirdElements.length; it++) {
 
         let lists = document.createElement('div');
-        lists.innerHTML = `${thirdElements[i]} &#x2022;`;
+        lists.innerHTML = `${thirdElements[it]} &#x2022;`;
         Object.assign(lists.style, thirdStyle)
         thirdWrapper.appendChild(lists)
     }
@@ -221,14 +221,14 @@ for (let i = 0; i < portfolios.length; i++) {
 
     // The image element
     let imageOne = document.createElement('img');
-    imageOne.src = portfolios[i].image;
+    imageOne.src = portfolios[it].image;
     Object.assign(imageOne.style, portStyle)
     popupModal.appendChild(imageOne)
 
 
     // The content element
     let content = document.createElement('p')
-    content.innerHTML = portfolios[i].content
+    content.innerHTML = portfolios[it].content
     Object.assign(content.style, contentStyle)
     popupModal.appendChild(content);
 
@@ -268,7 +268,7 @@ for (let i = 0; i < portfolios.length; i++) {
     buttonWrapper.appendChild(seesource)
 
     // The event listeners for the buttons
-    buttons[i].addEventListener('click', () => {
+    buttons[it].addEventListener('click', () => {
         let overlay = document.getElementById('overlay');
         if (overlay.style.display === 'block') {
             overlay.style.display = 'none'
