@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   background-color: #f4f5f7;
+  scroll-behavior: smooth;
 }
 
 .menulist {
@@ -29,6 +30,7 @@ body {
   margin: 0;
   padding-left: 1rem;
   box-shadow: -1px 2px 15px #777;
+  z-index: 2;
 }
 
 ul {
@@ -287,6 +289,13 @@ button {
   transition: all 0.5s ease;
 }
 
+
+button:disabled {
+  background-color: grey;
+  border: none;
+  color: #fff;
+}
+
 h3 {
   font-size: 2.5rem;
   color: #172b4d;
@@ -370,6 +379,21 @@ h3 {
   text-align: center;
 }
 
+.description-popup {
+  border: 2px solid green;
+  border-radius: 16px;
+  margin: 20px;
+  padding: 16px 18px;
+  z-index: -1;
+
+}
+
+.description-popup.scale {
+  transition: all 0.4s ease-in-out;
+  z-index: -2;
+  transform: scale(1.05);
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -398,11 +422,6 @@ form button {
   color: #6070ff;
   border-radius: 8px;
   width: fit-content;
-}
-
-button:disabled {
-  background-color: #637187;
-  border-color: #637187;
 }
 
 button:active {
