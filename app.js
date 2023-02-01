@@ -260,3 +260,6 @@ hamburger.addEventListener('click', function(){
     nav.classList.toggle('active');
 });
 
+cancel.addEventListener('click', function(){
+    popupModal.style.display = 'none';
+})
