@@ -24,15 +24,7 @@ let timeout = 3000
 
 submitForm.addEventListener('click', (event) => {
     let EmailValidation = regex.test(email.value);
-    if (email.value === '') {
-        setTimeout(function () {
-            errormsg.style.opacity = '0'
-
-        }, timeout)
-        errormsg.style.opacity = '1';
-        errormsg.innerHTML = 'Error! Field is empty';
-        event.preventDefault()
-    } else if (checkCaps.test(email.value)) {
+    if (checkCaps.test(email.value)) {
         setTimeout(function () {
             errormsg.style.opacity = '0';
 
