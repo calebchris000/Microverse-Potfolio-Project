@@ -9,4 +9,4 @@ hamburger.addEventListener('click', function(){
 nav.addEventListener('click', function(){
     hamburger.classList.remove('active')
     nav.classList.remove('active')
-})
+}) 
