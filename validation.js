@@ -47,6 +47,7 @@ submitForm.addEventListener('click', (event) => {
 let userName = document.querySelector('#name');
 let content = document.querySelector('#msg');
 
+// get input data on the input field
 form.addEventListener('keyup', () => {
     let data = {}
     data.name = userName.value;
@@ -57,6 +58,7 @@ form.addEventListener('keyup', () => {
     localStorage.setItem('data', stringD)
 })
 
+//sets the data back to the input
 let setItems = () => {
     let setData = JSON.parse(localStorage.getItem('data'))
     userName.value = setData.name
