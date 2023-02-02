@@ -137,7 +137,7 @@ To run tests, run the following command:
 👤 **Caleb Nwaizu**
 
 - GitHub: [calebchris000](https://github.com/calebchris000)
-- LinkedIn: [.martin-ossa](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
+- LinkedIn: [.caleb.nwaizu](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
 - Twitter: [calebchris000](https://twitter.com/calebchris000)
 
 👤 **Martin Ossa**
