@@ -43,15 +43,18 @@ submitForm.addEventListener('click', (event) => {
         event.preventDefault()
     }
 })
-// The popup-menu
 let hamburger = document.querySelector('.hamburger');
 let nav = document.querySelector('.menulist');
-let overlay = document.getElementById('overlay')
 
-hamburger.addEventListener('click', function () {
+hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('active');
     nav.classList.toggle('active');
 });
+
+nav.addEventListener('click', function(){
+    hamburger.classList.remove('active')
+    nav.classList.remove('active')
+}) 
 
 // The card popup code
 
