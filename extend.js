@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Validation
 
 let submitForm = document.querySelector('#submitForm');
@@ -44,7 +43,6 @@ submitForm.addEventListener('click', (event) => {
         event.preventDefault()
     }
 })
-=======
 // The popup-menu
 let hamburger = document.querySelector('.hamburger');
 let nav = document.querySelector('.menulist');
@@ -342,4 +340,3 @@ for (let it = 0; it < portfolios.length; it += inc) {
         popupModal.style.display = 'none';
     })
 }
->>>>>>> main
